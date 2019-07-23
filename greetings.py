@@ -1,0 +1,8 @@
+name=input("whats your name?")
+print("hello there "+ name.capitalize())
+print("your name is "+str(len(name))+" letters long")
+print("the first letter of your name is "+ name[0])
+print("the last letter of your name is "+ name[-1])
+print("missing letter: "+name[1:-1])
+print("egroeg")
+print(name[::3])
